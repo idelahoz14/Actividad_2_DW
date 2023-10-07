@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar">
+        <a href="home.html">Inicio</a>
+        <a href="registro.html">Registrarse</a>
+        <a href="tabla.html">Usuarios registrados</a>
+        <a href="/index.html">Exit</a>
+    </nav>
+
+    <!-- Página de registro -->
+    <section id="pagina-registro" class="registration-container">
+        <h1 class="registration-title">Registrarse</h1>
+        <form id="registration-form" class="registration-form" action="" method="post">
+            <input type="text" name="nombre" class="registration-input" placeholder="Nombre">
+            <input type="text" name="apellido" class="registration-input" placeholder="Apellido">
+            <input type="email" name="correo" class="registration-input" placeholder="Correo electrónico">
+            <input type="password" name="contrasena" class="registration-input" placeholder="Contraseña">
+            <input type="number" name="identificacion" class="registration-input" placeholder="Identificación">
+            <input type="submit" value="Registrarse" class="registration-button">
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-text">&copy; 2023</p>
+    </footer>
+
+    <script src="../js/registro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
