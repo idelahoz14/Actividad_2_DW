@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar">
+        <a href="home.html">Inicio</a>
+        <a href="registro.html">Registrarse</a>
+        <a href="tabla.html">Usuarios registrados</a>
+        <a href="/index.html">Exit</a>
+    </nav>
+
+    <!-- Página de tabla de usuarios registrados -->
+    <section id="pagina-tabla" class="table-container">
+        <h1 class="table-title">Usuarios registrados</h1>
+        <table class="user-table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo electrónico</th>
+                    <th>Contraseña</th>
+                    <th>Identificación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Datos estáticos -->
+                <tr>
+                    <td class="user-name">Albert</td>
+                    <td class="user-lastname">López</td>
+                    <td class="user-email">alberto.lopez@example.com</td>
+                    <td class="user-password">123456789</td>
+                    <td class="user-identification">10040387654</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-text">&copy; 2023</p>
+    </footer>
+
+    <script src="../js/tabla.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
